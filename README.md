@@ -10,6 +10,7 @@ To implement the given logic function verify its operation in Quartus using Veri
 ## Equipments Required:
 
  1.Hardware – PCs, Cyclone II , USB flasher
+ 
  2.Software – Quartus prime
 
 ## Theory
@@ -41,11 +42,14 @@ An OR gate is a fundamental digital logic gate that performs a logical disjuncti
 6.Give the respective inputs for timing diagram and obtain the results.
 
 ## Program:
-/*
 
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:
+
+Developed by: PRAVEEN S
+
+RegisterNumber:212222240078
+
+```
 module expression(a,b,c,d,f1);
 input a,b,c,d;
 output f1;
@@ -57,8 +61,7 @@ assign x4=(~a)&(b)&(c)&(d);
 assign x5=(b)&(~c)&(d);
 assign f1=x1|x2|x3|x4|x5;
 endmodule
-
-*/
+```
 
 ## RTL diagram:
 
